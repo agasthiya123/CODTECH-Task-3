@@ -1,0 +1,26 @@
+!pip install nltk spacy
+import nltk
+from nltk.chat.util import Chat, reflections
+
+# Download NLTK data (first time only)
+nltk.download('punkt')
+nltk.download('wordnet')
+pairs = [
+    [r"hi|hello|hey", ["Hello!  How can I help you today?"]],
+    [r"how are you?", ["I'm doing great! Thanks for asking "]],
+    [r"what is your name?", ["I am an AI Chatbot created using NLP "]],
+    [r"what is NLP?", ["NLP stands for Natural Language Processing. It helps computers understand human language."]],
+    [r"who created you?", ["I was created as part of an internship project "]],
+    [r"your purpose|what can you do?", ["I can answer your questions using NLP and assist you with queries "]],
+    [r"tell me a joke", ["Why did the computer go to the doctor? Because it caught a virus "]],
+    [r"bye|quit|exit", ["Bye! Take care "]]
+]
+
+def chatbot():
+    print("AI Chatbot is ready to talk! (type 'quit' to stop) ")
+    chat = Chat(pairs, reflections)
+    chat.converse()
+
+# Run the chatbot
+if __name__ == "__main__":
+    chatbot()
