@@ -1,12 +1,18 @@
 **Name:** AGASTHIYA DS
+
 **Company:** CODTECH IT SOLUTIONS
+
 **ID:** CT04DZ838
+
 **Domain:** Python Programming
+
 **Duration:** July 21st to August 21st 2025
 
 **Overview of the Project**
 
 **Project: AI CHATBOT WITH NLP**
+
+![Report Screenshot](screenshot chatbot task 3.png)
 
 **Objective:**
 
