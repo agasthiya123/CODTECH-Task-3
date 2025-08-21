@@ -12,7 +12,7 @@
 
 **Project: AI CHATBOT WITH NLP**
 
-![Report Screenshot](screenshot chatbot task 3.png)
+
 
 **Objective:**
 
