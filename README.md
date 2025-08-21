@@ -11,8 +11,7 @@
 **Overview of the Project**
 
 **Project: AI CHATBOT WITH NLP**
-
-
+![Chatbot Screenshot](https://github.com/agasthiya123/CODTECH-Task-3/blob/main/Screenshot%20chatbot%20task%203.png?raw=true)
 
 **Objective:**
 
